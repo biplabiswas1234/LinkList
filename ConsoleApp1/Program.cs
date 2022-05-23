@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            LinkListClass linkListClass = new LinkListClass();
-            linkListClass.Write();
-            linkListClass.Display();
+            LinkedListClass linkedListClass = new LinkedListClass();
+            linkedListClass.Write();
+            linkedListClass.Display();
         }
     }
 }

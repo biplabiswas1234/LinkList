@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    internal class LinkListClass
+    internal class LinkedListClass
     {
-       List<int>  Number = new List<int>();
+       LinkedList<int>  Number = new LinkedList<int>();
         public void Write()
         {
-            Number.Add(56);
-            Number.Add(30);
-            Number.Add(70);
+            Number.AddFirst(70);
+            Number.AddFirst(30);
+            Number.AddFirst(56);
         }
         public void Display()
         {

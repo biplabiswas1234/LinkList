@@ -7,7 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             LinkedListClass linkedListClass = new LinkedListClass();
-            linkedListClass.Write();
+            linkedListClass.InsertBetween();
             linkedListClass.Display();
         }
     }

@@ -7,11 +7,11 @@ namespace ConsoleApp1
     internal class LinkedListClass
     {
        LinkedList<int>  Number = new LinkedList<int>();
-        public void Write()
+        public void InsertBetween()
         {
-            Number.AddLast(56);
             Number.AddLast(30);
-            Number.AddLast(70);
+            Number.AddFirst(70);
+            Number.AddLast(56);
 
         }
         public void Display()

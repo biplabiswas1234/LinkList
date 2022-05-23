@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             LinkedListClass linkedListClass = new LinkedListClass();
             linkedListClass.AddElements();
-            linkedListClass.BeforeDelete();
+            linkedListClass.DeleteLastValue();
             linkedListClass.DeleteFirstElement();
             linkedListClass.Display();
         }

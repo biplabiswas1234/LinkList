@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Number.AddLast(70);
 
         }
-        public void BeforeDelete()
+        public void DeleteLastValue()
         {
             Console.WriteLine("Before Deleting:");
             Console.WriteLine("Numbers are:");
@@ -25,7 +25,7 @@ namespace ConsoleApp1
         }
         public void DeleteFirstElement()
         {
-            Number.RemoveFirst();
+            Number.RemoveLast();
 
         }
         public void Display()

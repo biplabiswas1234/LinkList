@@ -9,9 +9,10 @@ namespace ConsoleApp1
        LinkedList<int>  Number = new LinkedList<int>();
         public void Write()
         {
-            Number.AddFirst(70);
-            Number.AddFirst(30);
-            Number.AddFirst(56);
+            Number.AddLast(56);
+            Number.AddLast(30);
+            Number.AddLast(70);
+
         }
         public void Display()
         {
